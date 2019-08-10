@@ -2,13 +2,13 @@
 #include<stdlib.h>
 int main()
 {
-   int x,p,sum=0;
-   scanf("%d%d",&x,&p);
-   p=100-p;
-   while(x>0)
+   int a,b,sum=0;
+   scanf("%d%d",&a,&b);
+   b=100-b;
+   while(a>0)
    {
-       sum=sum+x;
-       x=(p*x)/100;
+       sum=sum+a;
+       x=(b*a)/100;
    }
    printf("%d",sum);
    return 0;
